@@ -1,0 +1,86 @@
+	html, body {
+		height: 100%;
+		background-color: #090401;
+		overflow: hidden;
+	}
+
+	* {
+		padding: 0px;
+		margin: 0px;
+	}	
+
+	.opaque {
+		filter:alpha(opacity=20);
+		-moz-opacity:0.2;
+		-khtml-opacity: 0.2;
+		opacity: 0.2;
+	}
+
+	.hdiv {
+		filter:alpha(opacity=50);
+		-moz-opacity:0;
+		-khtml-opacity: 0;
+		opacity: 0;
+	}
+
+	.klikk {
+		cursor: hand;
+		cursor: pointer;
+	}
+	
+	#view {
+		position:relative; 
+		border: 4px solid; 
+		color: white; 
+	}
+	
+	#porte {
+		position:absolute; 
+		top:-4px; 
+		left:-4px; 
+		border: 4px solid #111; 
+	}
+
+	.boxee {
+		width:518px; 
+		height:388px; 
+	}
+
+	.b100 {
+		width: 100%;
+		height: 100%;
+	}
+	
+	table.row {
+		padding:0px;
+		position: absolute; 
+		left:0px;
+	}
+	
+	table.col { 
+		padding:0px;
+		position: relative; 
+		top:0px;
+	}
+	
+	div.picture {
+		position:relative; 
+		background-color: #999;
+	}
+	
+	img { -ms-interpolation-mode:bicubic; }
+
+	#info {
+		position:absolute;top:0px;left0px; width:100%; overflow: hidden; background-color:#000;
+	}
+
+	#info td {	
+		font-size:12px;
+		line-height: 180%;
+		color: #FFF;
+		font-family: arial, sans-serif;
+		text-transform: uppercase; 
+		text-decoration: none;
+		font-weight: normal;
+		opacity: 0.8;
+	}
